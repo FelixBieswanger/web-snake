@@ -1,5 +1,5 @@
  // Within the script-tag you have to write Javascript
-
+{
 
       /*******************************************************
         * GAME LOGIC VARIABLES
@@ -172,7 +172,7 @@
         if (event.key == "ArrowUp") {
             snakeDirection = Direction.UP;
         } else if (event.key == "ArrowRight") {
-            snakeDirection = Direction.RIGHT;
+            snakeDirectionl = Direction.RIGHT;
         } else if (event.key == "ArrowDown") {
             snakeDirection = Direction.DOWN;
         } else if (event.key == "ArrowLeft") {
@@ -190,3 +190,5 @@
     function getRandomNumber(start, end) {
         return Math.ceil(Math.random() * (end - start) + start);
     }
+
+}
